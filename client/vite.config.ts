@@ -16,4 +16,7 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
+  define: {
+    'import.meta.env.VITE_API_URL': JSON.stringify('https://inventorypro-production-86d5.up.railway.app'),
+  },
 })
